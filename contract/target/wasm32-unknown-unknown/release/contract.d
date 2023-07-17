@@ -1,1 +1,0 @@
-/home/tropicaldog17/school/donation-rust/contract/target/wasm32-unknown-unknown/release/contract.wasm: /home/tropicaldog17/school/donation-rust/contract/src/donation.rs /home/tropicaldog17/school/donation-rust/contract/src/lib.rs

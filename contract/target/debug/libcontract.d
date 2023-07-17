@@ -1,1 +1,0 @@
-/home/tropicaldog17/school/donation-rust/contract/target/debug/libcontract.so: /home/tropicaldog17/school/donation-rust/contract/src/donation.rs /home/tropicaldog17/school/donation-rust/contract/src/lib.rs
