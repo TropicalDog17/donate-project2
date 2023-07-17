@@ -11,10 +11,10 @@
     "test": "npm run build:contract && npm run test:unit && npm run test:integration",
     "test:unit": "cd contract && cargo test",
     "test:integration": "cd integration-tests && npm test -- -- \"./contract/target/wasm32-unknown-unknown/release/contract.wasm\"",
-    "postinstall": "cd frontend && npm install && cd .. && cd integration-tests && npm install && cd .. && echo rs contract"
+    "postinstall": "cd frontend && yarn && cd .. && cd integration-tests && yarn && cd .. && echo rs contract",
+    "clean": "rm -rf ./contract/target && rm -rf ./contract/neardev"
   },
   "devDependencies": {
     "near-cli": "^3.3.0"
-  },
-  "dependencies": {}
+  }
 }
